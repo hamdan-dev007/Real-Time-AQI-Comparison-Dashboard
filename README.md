@@ -1,80 +1,100 @@
-# 🌍 Real-Time AQI Comparison Dashboard
+# 🌍 Real-Time AQI Monitoring & Comparison Dashboard
 
-A web-based dashboard that provides **real-time Air Quality Index (AQI) data** for multiple cities, enabling users to compare air quality levels, analyze trends, and understand pollution severity through interactive visualizations.
-
----
+A web-based application designed to monitor and compare Air Quality Index (AQI) levels across multiple cities. The dashboard brings together air quality information from different data sources and presents it through an interactive interface, helping users understand pollution levels and track changes over time.
 
 ## 🚀 Features
 
-- 🌫️ **Real-time AQI data** fetched from external APIs  
-- 📊 **City-wise AQI comparison** on a single dashboard  
-- 📈 **Interactive charts & visualizations**  
-- 🧭 User-friendly and responsive UI  
-- ⚡ Fast data fetching with asynchronous requests  
-
----
+- 🌫️ Monitor air quality information across multiple cities.
+- 📊 Compare AQI readings from different locations.
+- 📈 Interactive charts to explore historical AQI trends.
+- 🌍 Integrate data from multiple air quality sources.
+- 🔄 Scheduled data collection and updates.
+- 📱 Responsive dashboard interface.
+- 📅 View AQI trends over a 10-day period.
 
 ## 🛠️ Tech Stack
 
 **Frontend**
-- HTML  
-- CSS  
-- JavaScript  
-- Chart.js (for AQI visualizations)
+- React.js
+- JavaScript
+- HTML5
+- CSS3
 
 **Backend**
-- Node.js  
-- Express.js  
+- Node.js
+- Express.js
 
-**APIs**
-- Public AQI / Air Quality APIs
+**Database**
+- MongoDB
 
----
+**Data Sources**
+- CPCB
+- WAQI
+- OpenWeather
+
+## 🧩 Project Overview
+
+The application combines data from multiple air quality sources to provide a centralised view of pollution levels across different cities.
+
+The backend handles API requests, data processing and scheduled data collection, while MongoDB is used to store relevant AQI information. The React frontend presents the information through charts and dashboard components.
 
 ## 📂 Project Structure
 
-Real-Time-AQI-Comparison-Dashboard/
-│
-├── frontend/
-│ ├── index.html
-│ ├── styles.css
-│ └── script.js
-│
-├── backend/
-│ ├── server.js
-│ └── routes/
-│
-├── package.json
-└── README.md
+The project is organised into separate frontend and backend directories:
+
+- `frontend/` – React application and user interface.
+- `backend/` – Node.js server, API integrations and data handling.
+- `README.md` – Project documentation.
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+- MongoDB
+- API credentials required by the configured data sources
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/hamdan-dev007/Real-Time-AQI-Comparison-Dashboard.git
+```
+
+2. Navigate into the project:
+
+```bash
+cd Real-Time-AQI-Comparison-Dashboard
+```
+
+3. Install the frontend and backend dependencies using their respective `package.json` files.
+
+4. Configure the required environment variables locally.
+
+5. Start the frontend and backend using the scripts defined in their respective package files.
+
+## 🎯 Project Goals
+
+This project was developed to explore:
+
+- Real-world API integration.
+- Full-stack web application development.
+- Data collection and management.
+- Database integration using MongoDB.
+- Data visualisation and comparison.
+- Working with environmental data.
+
+## 🔮 Future Improvements
+
+- AQI alerts and notifications.
+- Map-based air quality visualisation.
+- Improved historical data analysis.
+- Machine learning-based AQI forecasting.
 
 ---
 
-## ⚙️ Installation & Setup
+**Developed by Hamdan**
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/MrKhaos-101/Real-Time-AQI-Comparison-Dashboard.git
-
-2.Navigate to project directory
-  cd Real-Time-AQI-Comparison-Dashboard
-
-3.Install backend dependencies
-  npm install
-
-4.Run the server 
-  npm start
-
-5.Open frontend
-  Open frontend/index.html in your browser
- 
-  📊 Use Case
-Helps users monitor air pollution levels
-Useful for health awareness
-Enables data-driven comparison between cities
-Educational project for understanding API integration & data visualization
-
-🔮 Future Enhancements
-🔔 AQI alerts & notifications
-🗺️ Map-based AQI visualization
-📱 Mobile-friendly UI improvements
-🧠 AQI trend prediction using Machine Learning
+[GitHub](https://github.com/hamdan-dev007) · [LinkedIn](https://www.linkedin.com/in/mohammad-hamdan-gada-4579b2335)
